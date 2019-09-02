@@ -34,4 +34,9 @@ public class CalculatorTest {
         assertEquals(9.68, calculator.multiplyNumber(), 0.01);
     }
 
+    @Test
+    public void divideNumber() {
+        assertEquals(2.00, calculator.divideNumber(), 0.01);
+    }
+
 }
