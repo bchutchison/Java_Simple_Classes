@@ -19,6 +19,8 @@ WaterBottle waterBottle;
     }
 
     @Test
-    public void emptyBottle()
+    public void emptyBottle() {
+        assertEquals(0, waterBottle.emptyBottle());
+    }
 
 }
