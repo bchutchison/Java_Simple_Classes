@@ -29,4 +29,9 @@ public class CalculatorTest {
         assertEquals(2.20, calculator.subtractNumber(), 0.01);
     }
 
+    @Test
+    public void multiplyNumber() {
+        assertEquals(9.68, calculator.multiplyNumber(), 0.01);
+    }
+
 }
