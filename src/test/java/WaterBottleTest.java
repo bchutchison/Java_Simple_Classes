@@ -23,4 +23,12 @@ WaterBottle waterBottle;
         assertEquals(0, waterBottle.emptyBottle());
     }
 
+    @Test
+    public void fillBottle() {
+        WaterBottle emptyWaterBottle = new WaterBottle( 20);
+        assertEquals( 100, emptyWaterBottle.fillBottle());
+    }
+
+
+
 }
